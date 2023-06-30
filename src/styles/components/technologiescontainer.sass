@@ -17,13 +17,22 @@
             border: 1px solid #333
             width: 12rem
             border-radius: variables.$card-border-radius
+            @media screen and (max-width:480px)
+                width: 8rem
+                padding: .3rem
+                font-size: .5rem
+                gap: .5rem
 
             h3
                 color: variables.$text-color
                 margin-bottom: 1rem
+                @media screen and (max-width:480px)
+                    margin-bottom: 0rem
 
             svg
                 font-size: 6rem
+                @media screen and (max-width:480px)
+                    font-size: 3rem
 
         #html
             svg

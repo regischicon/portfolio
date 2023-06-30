@@ -20,6 +20,10 @@
             border-radius: variables.$card-border-radius
             // background-color: variables.$bg-color-secondary
             display: inline
+            @media screen and (max-width:480px)
+                width: 8rem
+                padding: .2rem
+                gap: 0rem
 
             p
                 color: variables.$text-color
@@ -29,3 +33,4 @@
 
         .project-btn
             @include mixins.center
+            @media screen and (max-width:480px)
